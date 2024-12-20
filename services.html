@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <!-- Основные настройки страницы -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Polinka Polyanskaya</title>
+        <link rel="icon" href="photo/photo1.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Шапка страницы -->
+        <header>
+            <article class="container">
+                <div class="logo">
+                    <!-- Логотип -->
+                    <img src="photo/logo3.png" alt="Это я">
+                </div>
+                <div class="group-name">
+                    <!-- Информация о группе и авторе -->
+                    <p>Группа: ЭФБО-02-23</p>
+                    <p>Полянская Полина Евгеньевна</p>
+                </div> 
+            </article>
+            <nav>
+                <!-- Основное меню навигации -->
+                <a href="index.html">Главная</a>
+                <a href="first_sem.html">Первый семестр</a>
+                <a href="#">Второй семестр</a>
+                <a href="now-page">Услуги</a>
+                <a href="#">Авторизация</a>
+            </nav>
+        </header>
+        <!-- Основной контент -->
+        <main>
+            <nav>
+                <!-- Навигация по разделам текущей страницы -->
+                <p>Навигация по странице</p>
+                <ul>
+                    <li><a href="#visitka">Сайт-визитка</a></li>
+                    <li><a href="#korporat">Корпоративный сайт</a></li>
+                    <li><a href="#internet">Интернет магазин</a></li>
+                </ul>
+            </nav>
+            <section class="combined-section">
+                <!-- Заголовок основного раздела -->
+                <h1>Разработка веб-приложений</h1>
+                <article class="web-apps">
+                    <!-- Блок с карточками для выбора услуг -->
+                    <div class="color-block">
+                        <figure>
+                            <!-- Изображение и описание сайта-визитки -->
+                            <img src="photo/vizitka3.jpg" alt="Сайт-визитка">
+                            <figcaption>Сайт-визитка</figcaption>
+                        </figure>
+                        <div class="order-btn">
+                            <a href="#" class="open_pop_up">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="color-block">
+                        <figure>
+                            <!-- Изображение и описание корпоративного сайта -->
+                            <img src="photo/korpo2.jpg" alt="Корпоративный сайт">
+                            <figcaption>Корпоративный сайт</figcaption>
+                        </figure>
+                        <div class="order-btn">
+                            <a href="#" class="open_pop_up">Заказать</a>
+                        </div>
+                    </div>
+                    <div class="color-block">
+                        <figure>
+                            <!-- Изображение и описание интернет-магазина -->
+                            <img src="photo/shop3.jpg" alt="Интернет магазин">
+                            <figcaption>Интернет магазин</figcaption>
+                        </figure>
+                        <div class="order-btn">
+                            <a href="#" class="open_pop_up">Заказать</a>
+                        </div>
+                    </div>
+                </article>
+                
+                <!-- Модальное окно для отправки заявки -->
+                <div class="pop_up" id="pop_up">
+                    <div class="pop_up_container">
+                        <div class="pop_up_body">
+                            <h2>Разработка веб-приложения</h2>
+                            <p>Заполните форму и мы обязательно свяжемся <br> с вами в ближайшее время</p>
+                            <form>
+                                <!-- Поля для ввода данных пользователя -->
+                                <input type="text" placeholder="Иванов Иван Иванович">
+                                <input type="email" placeholder="test@mail.ru">
+                                <input type="tel" placeholder="+7 919 999 99 99">
+                                <!-- Поле выбора страны -->
+                                <label for="country">Страна</label>
+                                <select id="country" name="country">
+                                    <option value="russia">Россия</option>
+                                    <option value="usa">США</option>
+                                    <option value="germany">Германия</option>
+                                    <option value="china">Китай</option>
+                                    <option value="japan">Япония</option>
+                                </select>
+                                
+                                <!-- Поле выбора даты -->
+                                <label for="date">Дата</label>
+                                <input type="date" id="date" name="date">
+                                
+                                <!-- Поле для комментария -->
+                                <input type="text" id="comment" placeholder="Комментарий">
+                                <button>Отправить заявку</button>
+                            </form>
+                            <!-- Кнопка закрытия модального окна -->
+                            <div class="pop_up_close" id="close_pop_up">&#10006;</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Описание услуг -->
+                <section class="info">
+                    <h2 id="visitka">Сайт-визитка</h2>
+                    <p>Сайт-визитка — это небольшой веб-сайт, который представляет краткую информацию о человеке, компании или проекте. Основное назначение сайта-визитки — познакомить пользователей с ключевой информацией и предоставить контактные данные. Такой сайт идеально подходит для фрилансеров, небольших бизнесов, специалистов, а также для стартапов, которым нужно быстро и эффективно рассказать о себе в интернете.</p>
+                    <h2 id="korporat">Корпоративный сайт</h2>
+                    <p>Корпоративный сайт — это многостраничный веб-ресурс, предназначенный для представления компании, её деятельности, продукции или услуг в интернете. Основная цель корпоративного сайта — рассказать о бренде, повысить доверие клиентов и партнеров, а также предоставить полную информацию о компании.</p>
+                    <h2 id="internet">Интернет магазин</h2>
+                    <p>Интернет-магазин — это веб-сайт, предназначенный для продажи товаров или услуг онлайн. Главная задача интернет-магазина — предоставить пользователям возможность выбрать товар, оплатить его и заказать доставку, не выходя из дома.</p>
+                </section>
+            </section>
+        </main>
+        <!-- Подвал страницы -->
+        <footer>
+            <p>© Полянская Полина Евгеньевна, 2024</p>
+            <!-- Ссылки на социальные сети -->
+            <a href="#"><img src="photo/vk.png" alt="ВК"></a>
+            <a href="#"><img src="photo/telegram.png" alt="ТГ"></a>
+        </footer>
+        <!-- Кнопка прокрутки вверх -->
+        <div id="scrollToTopBtn" class="scroll-to-top">
+            ↑ 
+        </div>
+        <!-- Подключение основного JavaScript -->
+        <script src="main.js"></script>
+    </body>
+</html>

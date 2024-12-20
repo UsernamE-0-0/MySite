@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <!-- Основные настройки страницы -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Polinka Polyanskaya</title>
+        <link rel="icon" href="photo/photo1.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Шапка страницы -->
+        <header>
+            <article class="container">
+                <div class="logo">
+                    <!-- Логотип -->
+                    <img src="photo/logo3.png" alt="Это я">
+                </div>
+                <div class="group-name">
+                    <!-- Информация о группе и авторе -->
+                    <p>Группа: ЭФБО-02-23</p>
+                    <p>Полянская Полина Евгеньевна</p>
+                </div> 
+            </article>
+            <nav>
+                <!-- Основное меню навигации -->
+                <a href="now-page">Главная</a>
+                <a href="first_sem.html">Первый семестр</a>
+                <a href="#">Второй семестр</a>
+                <a href="services.html">Услуги</a>
+                <a href="#">Авторизация</a>
+            </nav>
+        </header>
+        <!-- Основной контент -->
+        <main>
+            <nav>
+                <!-- Навигация по разделам текущей страницы -->
+                <p>Навигация по странице</p>
+                <ul>
+                    <li><a href="#front">Фронтенд</a></li>
+                    <li><a href="#back">Бэкенд</a></li>
+                </ul>
+            </nav>
+            <section class="combined-section">
+                <article class="welcome">
+                    <!-- Приветствие пользователя -->
+                    <h1>Добро пожаловать на мой сайт!
+                        <img class="right-ava" src="photo/me.jfif" alt="Полина Полянская">
+                    </h1>
+                    <p>Меня зовут Полина Полянская и я начинающий веб-разработчик.</p>
+                </article>
+                <div class="info">
+                    <!-- Раздел "Фронтенд" -->
+                    <h2 id="front">Фронтенд</h2>
+                    <p>Фронтенд — это часть веб-разработки, которая отвечает за внешний вид и поведение веб-сайтов или веб-приложений. Всё, что видит и с чем взаимодействует пользователь на сайте — это работа фронтенд-разработчика. От кнопок и форм до изображений, меню и анимаций — всё это создаётся с помощью трёх ключевых технологий: HTML, CSS и JavaScript.</p>
+                    <!-- Видео по центру -->
+                    <div class="video-container">
+                        <video controls>
+                            <source src="front.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                    <!-- Раздел "Бэкенд" -->
+                    <h2 id="back">Бэкенд</h2>
+                    <p>Бэкенд — это «обратная сторона» веб-разработки, которая работает за кулисами и обеспечивает функциональность веб-приложений. Если фронтенд отвечает за то, что видит и с чем взаимодействует пользователь, то бэкенд занимается обработкой данных и логикой приложения на сервере. Бэкенд-разработчики используют различные языки программирования для создания логики приложения. Среди популярных языков для бэкенда — Python, Java, PHP, Node.js и Ruby. Эти языки помогают писать код, который взаимодействует с базой данных, обрабатывает запросы пользователей и выполняет другие серверные задачи.</p>
+                    <!-- Видео по центру -->
+                    <div class="video-container">
+                        <video controls>
+                            <source src="back.mp4" type="video/mp4">
+                            Ваш браузер не поддерживает видео.
+                        </video>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item item1">Hard skills</div>
+                    <div class="grid-item item2">Soft skills</div>
+                    <div class="grid-item item5">Объяснение</div>
+                    <div class="grid-item item3"><img src="photo/hard.jfif" alt="Пример изображения"></div>
+                    <div class="grid-item item4"><img src="photo/soft.jfif" alt="Пример изображения"></div>
+                    <div class="grid-item item6">Все больше компаний ищут талантливых и опытных программистов, способных внести свой вклад в разработку продуктов. При этом ключевые навыки, которые должен обладать успешный программист, можно разделить на две категории: hard skills (технические навыки) и soft skills (межличностные навыки). </div>
+                </div>  
+            </section>
+        </main>
+        <!-- Подвал страницы -->
+        <footer>
+            <p>© Полянская Полина Евгеньевна, 2024</p>
+            <!-- Ссылки на социальные сети -->
+            <a href="#"><img src="photo/vk.png" alt="ВК"></a>
+            <a href="#"><img src="photo/telegram.png" alt="ТГ"></a>
+        </footer>
+        <!-- Кнопка прокрутки вверх -->
+        <div id="scrollToTopBtn" class="scroll-to-top">
+            ↑ 
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
